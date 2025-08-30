@@ -17,7 +17,7 @@ int main() {
         char codigoC01 [10], cidadeC01 [50];
         int populaçãoC01;
         float áreaC01, pibC01;
-        int n_pontos_turísticosC01;
+        int pontosturísticosC01;
 
         // Entradada de dados: informações dos atributos das cartas. 
     
@@ -41,11 +41,11 @@ printf ("Digite o PIB (Produto Interno Bruto) da Cidade: \n");
 scanf ("%f", &pibC01);
 
 printf ("Digite o Número de Pontos Turísticos da Cidade: \n");
-scanf ("%d", &n_pontos_turísticosC01);
+scanf ("%d", &pontosturísticosC01);
 
 
 printf ("\n\n");
-printf ("Carta 1");
+printf ("Carta 01");
 printf ("\n");
 
 
@@ -61,7 +61,7 @@ printf ("Área: %f Km²\n", áreaC01);
 
 printf ("PIB: %f Bilhões de Reais\n", pibC01);
 
-printf ("Números de Pontos Turísticos: %d\n", n_pontos_turísticosC01);
+printf ("Números de Pontos Turísticos: %d\n", pontosturísticosC01);
 
     
 return 0; 
